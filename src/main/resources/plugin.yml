@@ -1,0 +1,15 @@
+name: tcsbaiducdnrefresh
+version: 1.0
+main: com.tcs.baiducdnrefresh.TcsBaiduCdnRefresh
+author: tcs
+api-version: 1.21
+commands:
+  baiducdnrefresh:
+    description: 刷新百度云CDN缓存
+    usage: /baiducdnrefresh <url> [directory|file]
+    permission: tcs.baiducdnrefresh
+    permission-message: §c你没有权限执行这个命令！
+permissions:
+  tcs.baiducdnrefresh:
+    description: 允许刷新百度云CDN缓存
+    default: op
